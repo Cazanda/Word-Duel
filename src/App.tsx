@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+//import React, { useState, useEffect } from 'react';
 import { Eye, EyeOff, Zap, Trophy, AlertCircle, Check, X, Loader2 } from 'lucide-react';
 
 type Letter = 'A'|'B'|'C'|'D'|'E'|'F'|'G'|'H'|'I'|'J'|'K'|'L'|'M'|'N'|'O'|'P'|'Q'|'R'|'S'|'T'|'U'|'V'|'W'|'X'|'Y'|'Z';
@@ -45,7 +45,7 @@ interface HintCard {
   effect: (word: string, revealed: RevealedInfo, input?: string) => RevealedInfo;
 }
 
-const SCORING_MODE: 'HIGH_WINS' = 'HIGH_WINS';
+//const SCORING_MODE: 'HIGH_WINS' = 'HIGH_WINS';
 const WRONG_GUESS_PENALTY = 2;
 const MIN_WORD_LENGTH = 3;
 
